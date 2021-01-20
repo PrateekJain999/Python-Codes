@@ -1,0 +1,12 @@
+a = int(input("Enter value of a? "));  
+b = int(input("Enter value of b? ")); 
+c=a&b;
+print("a&b=",c);
+c=a|b;
+print("a|b=",c);
+c=~a;
+print("~a=",c);
+c=a<<1;
+print("a<<=",c);
+c=a>>1;	
+print("a>>=",c);
